@@ -56,22 +56,43 @@ section{
     font-size: 3.5vw;
 }
 
+section > p {
+    padding-bottom: 2em;
+}
+
  section.normal {
     background-color: white;
     color: black;
 }
 
 section.imagem {
-    background-color: rgb(56, 56, 56);
+    background-color: rgba(0, 0, 0, 0.445);
     color: rgb(255, 255, 255);
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.603);
+    background-size: cover;
+    background-attachment: fixed;
 }
 section.imagem > p {
     display: inline-block;
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.267);
+    background-color: rgba(0, 0, 0, 0.349);
 
 }
 
+section#img01{
+    background-image: url("../flor.jpeg");
+    background-position: right top ;
+    background-repeat: no-repeat;
+    
+    text-shadow: 1px 1px 0px black;
+}
+
+section#img02{
+background-image: url("../city.jpeg");
+background-position: center top;
+background-repeat: no-repeat;
+
+}
 footer {
     background-color: rgb(58, 58, 58);
     text-align: center;
